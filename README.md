@@ -8,7 +8,7 @@
 
 ## 公開方法
 
-`main` ブランチへの更新時に、GitHub Actionsが `site/` をGitHub Pagesへ公開します。
+GitHub Pagesは `main` ブランチのルートを公開します。GitHub Actionsは公開ファイルの存在だけを検証します。
 
 ## 注意
 
