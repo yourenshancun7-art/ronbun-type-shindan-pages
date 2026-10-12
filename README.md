@@ -1,14 +1,15 @@
-# 論文タイプ診断 v1.2（公開サイト）
+# 論文タイプ診断 v1.3（公開用ビルド）
 
 研究内容から13種類の論文型を判定し、64個の論理ブロックを組み合わせた詳細な論文設計図を提示する静的Webアプリです。
 
-- 公開URL: <https://yourenshancun7-art.github.io/ronbun-type-shindan-pages/>
+- 公開URL: <https://ronbun-type-shindan.yuto2552.chatgpt.site>
+- GitHub Pages候補URL: <https://yourenshancun7-art.github.io/ronbun-type-shindan-pages/>
 - 外部AI API・バックエンド・患者データベースは使用しません。
 - この公開リポジトリにはビルド済みWebアプリだけを収録しています。
 
 ## 公開方法
 
-GitHub Pagesは `main` ブランチのルートを公開します。GitHub Actionsは公開ファイルの存在だけを検証します。
+`main` ブランチのルートと `site/` に同一のビルド済み静的ファイルを配置しています。GitHub Actionsは公開ファイルの存在を検証します。
 
 ## 注意
 
